@@ -343,14 +343,15 @@ body {
 
 .bola__left {
     position: absolute;
-    width: 80px;
+    width: 110px;
     top: -80px;
     left: 5%;
+  
 }
 
 .bola__right__bottom {
     position: absolute;
-    width: 80px;
+    width: 110px;
     bottom: -80px;
     right: 5%;
     transform: scaleX(-1);
@@ -364,6 +365,7 @@ body {
     line-height: 1.6;
     max-width: 450px;
     width: clamp(100px, 60%, 380px);
+    margin-top: 5em;
 }
 
 .temporizador__panel {
@@ -930,13 +932,15 @@ body {
 
 .dresscode__bola--izq {
     bottom: -80px;
-    left: 5%;
+    right: 5%;
+    width: 110px;
 }
 
 .dresscode__bola--der {
     top: -80px;
-    right: 5%;
+    left: 5%;
     transform: scaleX(-1);
+    width: 110px;
 }
 
 .dresscode__imagen {
@@ -1138,12 +1142,14 @@ body {
 .regalos__bola--izq {
     top: -50px;
     left: 5%;
+    width: 110px;
 }
 
 .regalos__bola--der {
     bottom: -60px;
     right: 5%;
     transform: scaleX(-1);
+    width: 110px;
 }
 
 .regalos__titulo {
@@ -1448,7 +1454,7 @@ body.introAbierta {
 
 .musica__boton {
     position: fixed;
-    top: 25%;
+    top: 70%;
     right: 3%;
     z-index: 1500;
     width: 46px;
